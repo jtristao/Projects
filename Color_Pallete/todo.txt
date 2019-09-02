@@ -1,3 +1,5 @@
 # Otimizar codigo(Usar operaçoes matriciais)
 # Apresentar resultados:
 	Contruir imagem usando apenas as cores
+#Plotar
+#Desfoque Gausiano

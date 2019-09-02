@@ -1,0 +1,3 @@
+# Finish Color Palete
+# Add Animation to hourse tour
+# Check sudoku

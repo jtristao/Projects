@@ -17,11 +17,11 @@ def rgb_to_dec(image):
 # Reads a image and returns a numpy array with one line
 def load_image(file_name):
 	image = cv2.imread(file_name, cv2.IMREAD_COLOR)
-	image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
+	# image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
 
-	# cv2.imshow("image", image)
-	# cv2.waitKey(0)
-	# cv2.destroyAllWindows()
+	cv2.imshow("image", image)
+	cv2.waitKey(0)
+	cv2.destroyAllWindows()
 
 	image = rgb_to_dec(image)
 
@@ -95,7 +95,7 @@ image = load_image("cut.png")
 # centers = k_means(image, 10)
 
 colors = np.zeros((10, 3), np.int32)
-# centers = np.array([7432289, 15987960, 9406857, 2636547, 12566455, 11569013, 10526102, 5907983, 8548190, 4541464])
+centers = np.array([7432289, 15987960, 9406857, 2636547, 12566455, 11569013, 10526102, 5907983, 8548190, 4541464])
 
 print(centers)
 for i in range(10):
