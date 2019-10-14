@@ -1,5 +1,5 @@
-# Otimizar codigo(Usar operaçoes matriciais)
-# Apresentar resultados:
-	Contruir imagem usando apenas as cores
-#Plotar
-#Desfoque Gausiano
+# Desfoque Gausiano
+
+# Terminar a função redraw
+
+https://mubaris.com/posts/kmeans-clustering/
